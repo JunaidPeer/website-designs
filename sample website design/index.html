@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dimitri Macro</title>
+  </head>
+  <body>
+    <div class="portofolio">
+      <header>
+        <nav>
+          <h3 class="logo">Dimitri Marco</h3>
+          <img src="./img/hamburger.svg" />
+        </nav>
+        <main>
+          <section class="page photographer">
+            <div class="deatils">
+              <h1>Elena Morell</h1>
+              <h2>Photographer</h2>
+              <p>02/08/2020</p>
+            </div>
+            <div class="hero">
+              <img class="model-left" src="./img/model-left.jpg" alt="model" />
+              <img
+                class="model-right"
+                src="./img/model-right.jpg"
+                alt="model"
+              />
+            </div>
+          </section>
+
+          <section class="page chef">
+            <div class="deatils">
+              <h1>John Savos</h1>
+              <h2>Pro chef</h2>
+              <p>30/06/2021</p>
+            </div>
+            <div class="hero">
+              <img class="model-left" src="./img/chef-left.jpg" alt="model" />
+              <img
+                class="model-right"
+                src="./img/chef-right.jpg"
+                alt="model"
+              />
+            </div>
+          </section>
+
+          <section class="page hairstyle">
+            <div class="deatils">
+              <h1>John Mayer</h1>
+              <h2>Phro Hairstyleist</h2>
+              <p>06/05/2020</p>
+            </div>
+            <div class="hero">
+              <img class="model-left" src="./img/hair-left.jpg" alt="model" />
+              <img
+                class="model-right"
+                src="./img/hair-right.jpg"
+                alt="model"
+              />
+            </div>
+          </section>
+
+          <div class="pages">
+            <div class="page1">
+              <h3>01</h3>
+              <svg
+              class="slide active"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="6" cy="6" r="6" fill="white" />
+            </svg>
+        </div>
+
+        <div class="page2">
+            <h3>02</h3>
+            <svg
+            class="slide"
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="6" cy="6" r="6" fill="white" />
+          </svg>
+      </div>
+
+      <div class="page3">
+        <h3>03</h3>
+        <svg
+        class="slide"
+        width="12"
+        height="12"
+        viewBox="0 0 12 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="6" cy="6" r="6" fill="white" />
+      </svg>
+  </div>
+          </div>
+        </main>
+      </header>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+		bscDUCO balance : <div id="balancelabel">Loading...</div><br/>
+		<input type="number" placeholder="Input amount to unwrap..." id="amountInput"></input><input placeholder="Username that shall receive DUCO" id="usernameInput"><br/>
+		<script src="ducoswapscript.js"></script>
+		<button onclick="unwrapDUCO()">Unwrap</button>
+</html>
